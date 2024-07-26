@@ -1,0 +1,23 @@
+
+.form-container {
+    max-width: 900px;
+    padding: 20px;
+    margin: auto; /* 水平居中 */
+    background-color: #fff;
+    border-radius: 5px; /* 添加圆角 */
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}
+
+.form {
+    width: 100%; /* 使表单占满父容器的宽度 */
+}
+
+.form-checkbox-group {
+    display: grid;
+    place-items: center; /* 水平和垂直居中 */
+}
+.checkbox-group {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px; /* 控制选项之间的间距 */
+}
