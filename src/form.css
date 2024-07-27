@@ -21,3 +21,10 @@
     grid-auto-flow: column;
     gap: 10px; /* 控制选项之间的间距 */
 }
+
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
